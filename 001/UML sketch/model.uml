@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__hMCgJVuEei3EIhFus9Fww" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_Im3NkJVvEei3EIhFus9Fww" name="Interaction1">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_z8L8kJXiEei3EIhFus9Fww">
+      <body>UML Picture shows how to use the load threaded tester - from the driver gets a depatchers, and then get it to create the required number of threads &#xD;
+and associate a number of threads with that despatcher. &#xD;
+Each thread will then have a concrete prontojourneyx (sub class of pronto journey) </body>
+    </ownedComment>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_T4LJwJVvEei3EIhFus9Fww" name="ProntoDriver" coveredBy="_2374QJVvEei3EIhFus9Fww _-BCo8JVvEei3EIhFus9Fww _J2raMJVwEei3EIhFus9Fww _j1PN8JVwEei3EIhFus9Fww _j125AJVwEei3EIhFus9Fww"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_WPipwJVvEei3EIhFus9Fww" name="ProntoDespatcher" coveredBy="_239GYJVvEei3EIhFus9Fww _-BEeIJVvEei3EIhFus9Fww _J2t2cJVwEei3EIhFus9Fww _XKgnwJVwEei3EIhFus9Fww _XKjEAJVwEei3EIhFus9Fww _j1PN8JVwEei3EIhFus9Fww _j125AJVwEei3EIhFus9Fww _zYEpsJVwEei3EIhFus9Fww _-5h6sJVwEei3EIhFus9Fww _CXCjYJVxEei3EIhFus9Fww"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_nS6EIJVvEei3EIhFus9Fww" name="Pronto Testing Thread" coveredBy="_j1PN8JVwEei3EIhFus9Fww _j125AJVwEei3EIhFus9Fww _zYFQwJVwEei3EIhFus9Fww _-5jI0JVwEei3EIhFus9Fww _CXEYkJVxEei3EIhFus9Fww _wZZAsJXhEei3EIhFus9Fww _0L_voJXhEei3EIhFus9Fww"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_qp3Y4JVvEei3EIhFus9Fww" name="ProntoJourneyx" coveredBy="_j1PN8JVwEei3EIhFus9Fww _j125AJVwEei3EIhFus9Fww _wZZnwJXhEei3EIhFus9Fww _0MAWsJXhEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2374QJVvEei3EIhFus9Fww" name="MessageSend" covered="_T4LJwJVvEei3EIhFus9Fww" message="_23sAoJVvEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_239GYJVvEei3EIhFus9Fww" name="MessageRecv" covered="_WPipwJVvEei3EIhFus9Fww" message="_23sAoJVvEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-BCo8JVvEei3EIhFus9Fww" name="MessageSend0" covered="_T4LJwJVvEei3EIhFus9Fww" message="_-A_loJVvEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-BEeIJVvEei3EIhFus9Fww" name="MessageRecv0" covered="_WPipwJVvEei3EIhFus9Fww" message="_-A_loJVvEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XKgnwJVwEei3EIhFus9Fww" name="Message0Send" covered="_WPipwJVvEei3EIhFus9Fww" message="_XKc9YJVwEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XKjEAJVwEei3EIhFus9Fww" name="Message0Recv" covered="_WPipwJVvEei3EIhFus9Fww" message="_XKc9YJVwEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_J2raMJVwEei3EIhFus9Fww" name="MessageSend1" covered="_T4LJwJVvEei3EIhFus9Fww" message="_J2oW4JVwEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_J2t2cJVwEei3EIhFus9Fww" name="MessageRecv1" covered="_WPipwJVvEei3EIhFus9Fww" message="_J2oW4JVwEei3EIhFus9Fww"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_j1PN8JVwEei3EIhFus9Fww" name="CombinedFragment" covered="_nS6EIJVvEei3EIhFus9Fww _qp3Y4JVvEei3EIhFus9Fww _WPipwJVvEei3EIhFus9Fww _T4LJwJVvEei3EIhFus9Fww">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_j125AJVwEei3EIhFus9Fww" name="InteractionOperand" covered="_nS6EIJVvEei3EIhFus9Fww _qp3Y4JVvEei3EIhFus9Fww _WPipwJVvEei3EIhFus9Fww _T4LJwJVvEei3EIhFus9Fww">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zYEpsJVwEei3EIhFus9Fww" name="Message0Send" covered="_WPipwJVvEei3EIhFus9Fww" message="_zYBmYJVwEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zYFQwJVwEei3EIhFus9Fww" name="Message0Recv" covered="_nS6EIJVvEei3EIhFus9Fww" message="_zYBmYJVwEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-5h6sJVwEei3EIhFus9Fww" name="Message0Send0" covered="_WPipwJVvEei3EIhFus9Fww" message="_-5dpQJVwEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-5jI0JVwEei3EIhFus9Fww" name="Message0Recv0" covered="_nS6EIJVvEei3EIhFus9Fww" message="_-5dpQJVwEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CXCjYJVxEei3EIhFus9Fww" name="Message0Send1" covered="_WPipwJVvEei3EIhFus9Fww" message="_CXAHIJVxEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CXEYkJVxEei3EIhFus9Fww" name="Message0Recv1" covered="_nS6EIJVvEei3EIhFus9Fww" message="_CXAHIJVxEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wZZAsJXhEei3EIhFus9Fww" name="Message0Send2" covered="_nS6EIJVvEei3EIhFus9Fww" message="_wYnkoJXhEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wZZnwJXhEei3EIhFus9Fww" name="Message0Recv2" covered="_qp3Y4JVvEei3EIhFus9Fww" message="_wYnkoJXhEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0L_voJXhEei3EIhFus9Fww" name="Message0Send3" covered="_nS6EIJVvEei3EIhFus9Fww" message="_0L-hgJXhEei3EIhFus9Fww"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0MAWsJXhEei3EIhFus9Fww" name="Message0Recv3" covered="_qp3Y4JVvEei3EIhFus9Fww" message="_0L-hgJXhEei3EIhFus9Fww"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_j14HIJVwEei3EIhFus9Fww">
+          <specification xmi:type="uml:LiteralString" xmi:id="_vdzMgJVwEei3EIhFus9Fww" value="Repeat for n number of threads"/>
+          <maxint xmi:type="uml:LiteralInteger" xmi:id="_j158UJVwEei3EIhFus9Fww" value="1"/>
+          <minint xmi:type="uml:LiteralInteger" xmi:id="_j15VQJVwEei3EIhFus9Fww"/>
+        </guard>
+      </operand>
+    </fragment>
+    <formalGate xmi:type="uml:Gate" xmi:id="_U67x0JVwEei3EIhFus9Fww" name="gate0" message="_U-6S4JVwEei3EIhFus9Fww"/>
+    <formalGate xmi:type="uml:Gate" xmi:id="_U-VrIJVwEei3EIhFus9Fww" name="gate1" message="_U-6S4JVwEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_23sAoJVvEei3EIhFus9Fww" name="new()" receiveEvent="_239GYJVvEei3EIhFus9Fww" sendEvent="_2374QJVvEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_-A_loJVvEei3EIhFus9Fww" name="setThreadProperties" receiveEvent="_-BEeIJVvEei3EIhFus9Fww" sendEvent="_-BCo8JVvEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_J2oW4JVwEei3EIhFus9Fww" name="driveTest()" receiveEvent="_J2t2cJVwEei3EIhFus9Fww" sendEvent="_J2raMJVwEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_U-6S4JVwEei3EIhFus9Fww" name="Message" messageSort="asynchCall" receiveEvent="_U67x0JVwEei3EIhFus9Fww" sendEvent="_U-VrIJVwEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_XKc9YJVwEei3EIhFus9Fww" name="readInData()" messageSort="asynchCall" receiveEvent="_XKjEAJVwEei3EIhFus9Fww" sendEvent="_XKgnwJVwEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_zYBmYJVwEei3EIhFus9Fww" name="new()" receiveEvent="_zYFQwJVwEei3EIhFus9Fww" sendEvent="_zYEpsJVwEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_-5dpQJVwEei3EIhFus9Fww" name="setThreadProperties()" receiveEvent="_-5jI0JVwEei3EIhFus9Fww" sendEvent="_-5h6sJVwEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_CXAHIJVxEei3EIhFus9Fww" name="run()" receiveEvent="_CXEYkJVxEei3EIhFus9Fww" sendEvent="_CXCjYJVxEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_wYnkoJXhEei3EIhFus9Fww" name="new()" receiveEvent="_wZZnwJXhEei3EIhFus9Fww" sendEvent="_wZZAsJXhEei3EIhFus9Fww"/>
+    <message xmi:type="uml:Message" xmi:id="_0L-hgJXhEei3EIhFus9Fww" name="executeTests" receiveEvent="_0MAWsJXhEei3EIhFus9Fww" sendEvent="_0L_voJXhEei3EIhFus9Fww"/>
+  </packagedElement>
+</uml:Model>

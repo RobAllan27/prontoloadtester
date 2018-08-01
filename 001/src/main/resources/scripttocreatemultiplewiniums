@@ -1,0 +1,8 @@
+REM Rob Allan DX Solutions Windows batch file to drive WINIUM
+REM you will need the winium exe in your patc or in this same directory
+start Winium.Desktop.Driver.exe --port 8888
+start Winium.Desktop.Driver.exe --port 8889
+start Winium.Desktop.Driver.exe --port 8890
+start Winium.Desktop.Driver.exe --port 8891
+start Winium.Desktop.Driver.exe --port 8892
+  
